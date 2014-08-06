@@ -5,6 +5,10 @@ import numpy as np
 # X is list of numpy arrays where each array is feature variable (input)
 # Y is a list of numbers where each number is a target variable (output)
 # alpha is the step size
+
+# This is the batch gradient descent which converges slower than th incremental gradient descent
+
+# returns theta, the linear estimate of the training set
 ##########################################################################
 def least_mean_squares(x, y, alpha):
 
